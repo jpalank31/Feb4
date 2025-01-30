@@ -1,54 +1,84 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Viewport meta tag -->
     <title>February 4 🥸</title>
     <style>
-      body {
-        background-color: #5c5470;
-        text-align: center;
-        color: white;
-      }
-      h1 {
-        margin: 20px auto;
-      }
-      .intro {
-        font-size: 20px;
-      }
-      p {
-        font-size: 30px;
-      }
-      h2 {
-        font-size: 50px;
-      }
-      button {
-        padding: 5px 6px;
-      }
-      button:hover {
-        cursor: pointer;
-      }
+        body {
+            background-color: #5c5470;
+            text-align: center;
+            color: white;
+            font-family: Arial, sans-serif; /* Adding a fallback font */
+        }
+        h1 {
+            margin: 20px auto;
+            font-size: 2.5rem; /* Responsive font size */
+        }
+        .intro {
+            font-size: 1.5rem; /* Responsive font size */
+        }
+        p {
+            font-size: 1.5rem; /* Adjusted for readability */
+            padding: 0 10px; /* Padding for mobile */
+        }
+        h2 {
+            font-size: 3rem; /* Responsive font size */
+        }
+        button {
+            padding: 10px 20px; /* Increased padding for touch targets */
+            font-size: 1rem; /* Responsive font size */
+            background-color: #7c6d94; /* Button background color */
+            border: none; /* Remove default border */
+            border-radius: 5px; /* Rounded corners */
+            color: white; /* Text color */
+            cursor: pointer; /* Pointer cursor */
+            transition: background-color 0.3s; /* Smooth transition */
+        }
+        button:hover {
+            background-color: #5c5470; /* Change color on hover */
+        }
+        /* Media Queries for Responsive Design */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2rem; /* Smaller heading size */
+            }
+            .intro {
+                font-size: 1.2rem; /* Smaller intro size */
+            }
+            p {
+                font-size: 1rem; /* Smaller paragraph text */
+            }
+            h2 {
+                font-size: 2rem; /* Smaller h2 size */
+            }
+            button {
+                font-size: 0.9rem; /* Smaller button text */
+                padding: 8px 16px; /* Adjust button padding */
+            }
+        }
     </style>
-  </head>
-  <body>
+</head>
+<body>
     <h1>✨Tuesday, February 4, 2025✨</h1>
 
     <p class="intro">A haiku for you</p>
     <p>
-      Today, take a pause
-      <br />
-      To sit and savor small things
-      <br />
-      Life is full of joy
+        Today, take a pause
+        <br />
+        To sit and savor small things
+        <br />
+        Life is full of joy
     </p>
     <h2>🫶</h2>
     <a href="https://jpalank31.github.io/Glimmer1/">
-      <button>Back to homepage</button>
+        <button>Back to homepage</button>
     </a>
     <script>
-      history.scrollRestoration = "manual";
-      window.onload = function () {
-        document.body.scrollTop = document.documentElement.scrollTop = 0;
-      };
+        history.scrollRestoration = "manual";
+        window.onload = function () {
+            document.body.scrollTop = document.documentElement.scrollTop = 0;
+        };
     </script>
-  </body>
+</body>
 </html>
